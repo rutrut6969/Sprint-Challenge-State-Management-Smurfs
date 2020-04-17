@@ -1,3 +1,46 @@
 .App {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+}
+.Card {
+  border: 1px solid black;
+  display: flex;
+  flex-flow: column wrap;
+  width: 25%;
+  margin: 2%;
+  justify-content: center;
+  align-items: center;
+}
+.Card ul {
+  list-style: none;
+  text-align: center;
+}
+.addSmurf {
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  height: 300px;
+  align-items: center;
+  flex-flow: column wrap;
+}
+.addSmurf .submit {
+  width: 100px;
+}
+.addSmurf label {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-start;
+}
+.btn {
+  margin-top: 2%;
+}
+.card-wrap {
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
 }
